@@ -1,6 +1,30 @@
 # Changelog
 
-**Note:** As of v14, all notable changes to this project will be documented [HERE](https://github.com/bennymeg/nx-electron/blob/master/packages/nx-electron/CHANGELOG.md). See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [14.0.2](https://github.com/bennymeg/nx-electron/compare/v14.0.0...v14.0.2) (2023-02-01)
+
+
+### Bug Fixes
+
+* removed unused dependencies from v13 ([ab450d8](https://github.com/bennymeg/nx-electron/commit/ab450d886cca21089712f7b738233a55333aa376))
+
+## [14.0.0](https://github.com/bennymeg/nx-electron/compare/v13.2.3...v14.0.0) (2023-02-01)
+
+
+### Features
+
+* add support for backend only / multiple frontend applications [#154](https://github.com/bennymeg/nx-electron/issues/154), [#170](https://github.com/bennymeg/nx-electron/issues/170) ([dff1926](https://github.com/bennymeg/nx-electron/commit/dff1926622b0a96794778c2450bc7b97e6ebcc96))
+* added extraProjects option [#154](https://github.com/bennymeg/nx-electron/issues/154) ([3d70e28](https://github.com/bennymeg/nx-electron/commit/3d70e2864b206a917b4af0cceae220a52e0c51da))
+* dont minimize node modules ([78f0fbc](https://github.com/bennymeg/nx-electron/commit/78f0fbc5c41b344dd4023181b41da2af15282544))
+* make front project optional [#170](https://github.com/bennymeg/nx-electron/issues/170) ([884181d](https://github.com/bennymeg/nx-electron/commit/884181d8dbf0c08750d338a4ae09d26fd4609b2d))
+* migrate to nx v14 ([1ed6a1b](https://github.com/bennymeg/nx-electron/commit/1ed6a1b645185d5ec261845ed0cc8032aac7ab9d))
+
+
+### Bug Fixes
+
+* package projects files list [#154](https://github.com/bennymeg/nx-electron/issues/154), [#170](https://github.com/bennymeg/nx-electron/issues/170) ([41f3676](https://github.com/bennymeg/nx-electron/commit/41f36760471cc8aa8f3061e52c4a493d2e1a7aba))
+* tao appRoot deprecation ([e51bbc3](https://github.com/bennymeg/nx-electron/commit/e51bbc34db233e31bf0894dc05b87d9d9ca6f783))
 
 ### [13.2.3](https://github.com/bennymeg/nx-electron/compare/v13.2.2...v13.2.3) (2023-01-08)
 
@@ -88,49 +112,3 @@
 * preload file regex pattern as per [#121](https://github.com/bennymeg/nx-electron/issues/121) ([b9a7da8](https://github.com/bennymeg/nx-electron/commit/b9a7da8f8a5de15ec0dd9e83a414e4fa7214aa47))
 * schema $id field ([40e58f1](https://github.com/bennymeg/nx-electron/commit/40e58f17f3d60523fc485bc62587526b181b563a))
 * update post install script instead of overwriting it. closes [#97](https://github.com/bennymeg/nx-electron/issues/97) ([de69c98](https://github.com/bennymeg/nx-electron/commit/de69c986598a8f8e7147d16db1a03bdeb7460095))
-
-### [11.4.1](https://github.com/bennymeg/nx-electron/compare/v11.4.0...v11.4.1) (2021-11-08)
-
-
-### Bug Fixes
-
-* preload file regex pattern as per [#121](https://github.com/bennymeg/nx-electron/issues/121) ([285f196](https://github.com/bennymeg/nx-electron/commit/285f19657c93bba45e2a2876b5465fbbb68e0ddf))
-
-## [11.4.0](https://github.com/bennymeg/nx-electron/compare/v11.3.0...v11.4.0) (2021-10-26)
-
-
-### Features
-
-* added multi preload scripts support as per [#118](https://github.com/bennymeg/nx-electron/issues/118) ([16f9b9d](https://github.com/bennymeg/nx-electron/commit/16f9b9ded8bf95790677cc99aff5fa7ba1b79845))
-
-## [11.3.0](https://github.com/bennymeg/nx-electron/compare/v11.1.3...v11.3.0) (2021-10-07)
-
-
-### Features
-
-* **package:** add option for overriding make options file ([d569054](https://github.com/bennymeg/nx-electron/commit/d5690549194e64ff4929ad231b4ce153df8e971d))
-
-
-### Bug Fixes
-
-* update post install script instead of overwriting it. closes [#97](https://github.com/bennymeg/nx-electron/issues/97) ([b3a8846](https://github.com/bennymeg/nx-electron/commit/b3a8846425058a0a9ed6fbf6d8e8ce6bad2f75b0))
-
-### [11.1.3](https://github.com/bennymeg/nx-electron/compare/v11.1.2...v11.1.3) (2021-07-02)
-
-### [11.1.2](https://github.com/bennymeg/nx-electron/compare/v11.1.1...v11.1.2) (2021-05-29)
-
-### [11.1.1](https://github.com/bennymeg/nx-electron/compare/v11.1.0...v11.1.1) (2021-05-01)
-
-## 11.1.0 (2021-04-12)
-
-
-### Features
-
-* migrated from jshint to eslint ([a7297ff](https://github.com/bennymeg/nx-electron/commit/a7297ff866729566f41d57bafbe01f0085a9dbda))
-
-
-### Bug Fixes
-
-* allow optional assets in build config ([27a4a90](https://github.com/bennymeg/nx-electron/commit/27a4a90f66789ecdbdfedce54c6914488a0264f5))
-* updated installed dependecies versions [#66](https://github.com/bennymeg/nx-electron/issues/66) ([6c61541](https://github.com/bennymeg/nx-electron/commit/6c61541a0407905832e26965ce328c338116beaa))
-* **tsconfig:** updates extends to nx default ([43d78e5](https://github.com/bennymeg/nx-electron/commit/43d78e576ab227c444bfb9356873b826b03b8e8c))
